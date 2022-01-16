@@ -1,4 +1,7 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-createApp(App).mount('#app')
+//  vueCLI @ 는 소스폴더 지정하고있음
+import "@/styles/main.css";
+
+createApp(App).mount("#app");
